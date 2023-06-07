@@ -53,7 +53,7 @@ const Home = ({ navigation }) => {
           style={{ width: '100%', height: 270 }}
           imageStyle={{ borderBottomRightRadius: 65 }}
         >
-          <View style={styles.DarkOverlay}></View>
+          <View style={styles.DarkOverlay} />
           <View style={styles.searchContainer}>
             <Text style={styles.UserGreet}>Hi Nahom</Text>
             <Text style={styles.UserText}>
@@ -204,8 +204,8 @@ const styles = StyleSheet.create({
     right: 0,
     left: 0,
     hight: 270,
-    backgroundColor: 'red',
-    opacity: 0.6,
+    backgroundColor: '#000',
+    opacity: 0.4,
     borderBottomRightRadius: 65,
   },
   searchContainer: {
@@ -238,7 +238,7 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     position: 'absolute',
     backgroundColor: '#000',
-    opacity: 0.5,
+    opacity: 0.3,
   },
   imageLocationIcon: {
     position: 'absolute',

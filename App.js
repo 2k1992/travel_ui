@@ -13,13 +13,13 @@ export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator
-        initialRoute="Post"
+        initialRoute="Home"
         screenOptions={{
           headerShown: false,
         }}
       >
-        <Stack.Screen name="Post" component={Post} />
         <Stack.Screen name="Home" component={Home} />
+        <Stack.Screen name="Post" component={Post} />
       </Stack.Navigator>
     </NavigationContainer>
   );
